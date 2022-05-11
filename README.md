@@ -1,5 +1,4 @@
 # UpTask---Administrador-de-Tareas
-Administrador de tareas con Login, proyectos, tareas... Desarrollado con HTML, CSS, JAVASCRIPT, PHP, AJAX, JSON, MYSQL
 
 Este proyecto es completo, y ha sido desarrollado con HTML, CSS con Gulp y SCSS, JAVASCRIPT, PHP, PHP mailer, AJAX, JSON, SQL.
 
@@ -9,6 +8,16 @@ Se puede crear y eliminar proyectos y tareas.
 
 Apartado Login para cada usuario, base de datos "database.sql", con autenticación de correo y recuperación de contraseña por correo mediante tokens exclusivos que se
 eliminan de la base de datos una vez se usa.
+
+Cómo usar:
+- Descargar carpeta completa.
+- Añadir base de datos "database.sql" a nuestro servidor.
+- Ejecutar gulp en la carpeta.
+- Dentro de carpeta "public" , ejecutar servidor de PHP: php -S localhost:2000 .
+
+Datos extra:
+- correo: alfonso@alfonso.com
+- contraseña: password
 
 Vista login:
 ![login](https://user-images.githubusercontent.com/55546022/167819636-cde74cf2-f334-4899-955a-f94ac3196e5b.png)
